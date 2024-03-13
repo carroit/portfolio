@@ -1,0 +1,63 @@
+.Hero-img {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}  
+.Hero-img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 30, 32);
+    opacity: 0.8;  
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.him{
+    height: 100%;
+    width: 100%;
+    }
+.him .heading{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+    }
+ .him .heading h1{
+        font-size: 4rem;
+        padding: 0.6rem 0 1.5rem;
+    }
+.him .heading p{
+        font-size: 1.4rem;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+p{
+        font-weight: 100; 
+        font: bold;
+        font-size: 1rem;
+        }
+
+
+
+
+@media (max-width: 640px) {
+    .him .heading .h1 {
+      font-size: 1rem;
+    }
+    .him .heading p {
+      font-size: 1rem;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+  }
+    

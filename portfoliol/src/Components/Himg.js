@@ -1,10 +1,7 @@
 import "./Himg.css";
 import React from 'react'
-import h1 from "../assets/h1.avif"
+import h1 from "../assets/pc-2jpg.jpg"
 import { Link } from "react-router-dom";
-
-
-
 
 const Himg = () => {
   return (
